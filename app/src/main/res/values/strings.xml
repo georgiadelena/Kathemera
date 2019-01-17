@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ΚΑΘΕ ΜΕΡΑ...</string>
+
+    <string name="initialLabel">Κάθε μέρα...</string>
+    <string name="wash_face">Πλένω το πρόσωπό μου</string>
+    <string name="wash_hands">Πλένω τα χέρια μου</string>
+    <string name="wash_teeth">Πλένω τα δόντια μου</string>
+</resources>

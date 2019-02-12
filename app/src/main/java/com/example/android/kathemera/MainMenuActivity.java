@@ -26,6 +26,16 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+        Button handsState = (Button) findViewById(R.id.wash_hands_button);
+        handsState.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Button is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent handsIntent = new Intent(MainMenuActivity.this, WashHandsActivity.class);
+                startActivity(handsIntent);
+            }
+        });
+
         Button teethState = (Button) findViewById(R.id.wash_teeth_button);
         teethState.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Button is clicked on.

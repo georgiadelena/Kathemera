@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.kathemera">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,7 +35,17 @@
 
         <activity
             android:name=".WashFaceActivity"
-            android:label="@string/initialLabel"
+            android:label="@string/wash_face"
+            android:parentActivityName="com.example.android.kathemera.MainMenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity"/>
+        </activity>
+
+        <activity
+            android:name=".WashHandsActivity"
+            android:label="@string/wash_hands"
             android:parentActivityName="com.example.android.kathemera.MainMenuActivity"
             android:screenOrientation="portrait">
             <meta-data
@@ -42,7 +55,7 @@
 
         <activity
             android:name=".WashTeethActivity"
-            android:label="@string/initialLabel"
+            android:label="@string/wash_teeth"
             android:parentActivityName="com.example.android.kathemera.MainMenuActivity"
             android:screenOrientation="portrait">
             <meta-data

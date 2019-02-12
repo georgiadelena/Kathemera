@@ -22,11 +22,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/face"
+            android:background="@drawable/wash_face1"
             android:bottomLeftRadius="5dp"
             android:bottomRightRadius="5dp"
             android:topLeftRadius="5dp"
-            android:topRightRadius="5dp" />
+            android:topRightRadius="5dp"
+            android:onClick="clickButton1" />
 
         <Button
             android:id="@+id/button2"
@@ -34,11 +35,12 @@
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/face"
+            android:background="@drawable/wash_face2"
             android:bottomLeftRadius="5dp"
             android:bottomRightRadius="5dp"
             android:topLeftRadius="5dp"
-            android:topRightRadius="5dp" />
+            android:topRightRadius="5dp"
+            android:onClick="clickButton2"/>
 
     </LinearLayout>
 
@@ -54,22 +56,24 @@
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="60dp"
-            android:background="@drawable/face"
+            android:background="@drawable/wash_face3"
             android:bottomLeftRadius="5dp"
             android:bottomRightRadius="5dp"
             android:topLeftRadius="5dp"
-            android:topRightRadius="5dp" />
+            android:topRightRadius="5dp"
+            android:onClick="clickButton3"/>
 
         <Button
             android:id="@+id/button4"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/face"
+            android:background="@drawable/wash_face4"
             android:bottomLeftRadius="5dp"
             android:bottomRightRadius="5dp"
             android:topLeftRadius="5dp"
-            android:topRightRadius="5dp" />
+            android:topRightRadius="5dp"
+            android:onClick="clickButton4"/>
 
     </LinearLayout>
 
